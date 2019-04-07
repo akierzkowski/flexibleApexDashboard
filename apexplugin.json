@@ -1,0 +1,49 @@
+{
+  "name": "Flexible APEX Dashboard",
+  "version": "1.0.0",
+  "description": "Flexible APEX Dashboard is a simple plugin that enable end-users to customize their dashboard layout. The intention was to provide users simmilar region manipulation possiblities that application builder provides to APEX developers.",
+  "keywords": [
+    "oracle",
+    "apex",
+    "plugin",
+    "dashboard",
+    "drag",
+    "drop",
+    "resize",
+    "customization"
+  ],
+  "homepage": "https://github.com/akierzkowski/flexibleApexDashboard",
+  "bugs": {
+    "url": "https://github.com/akierzkowski/flexibleApexDashboard/issues",
+    "email": "kierzkowski49@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Adam Kierzkowski",
+    "email": "kierzkowski49@gmail.com",
+    "url": "",
+    "twitter": "kierzkowski49"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akierzkowski/flexibleApexDashboard.git"
+  },
+  "oracle": {
+    "versions": [
+      "11.2.0.1",
+      "12.1.0.1",
+      "12.2.0.1"
+    ],
+    "apex": {
+      "versions": [
+        "19.1.0"
+      ],
+      "plugin": {
+        "internalName": "AKIERZKOWSKI_FLEXIBLE_APEX_DASHBOARD",
+        "type": "dynamic action",
+        "demo": "https://apex.oracle.com/pls/apex/f?p=116175:1:",
+        "previewImage": ""
+      }
+    }
+  }
+}
