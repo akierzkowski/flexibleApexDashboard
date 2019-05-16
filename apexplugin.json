@@ -1,7 +1,7 @@
 {
-  "name": "Flexible APEX Dashboard",
+  "name": "Pretius Flexible APEX Dashboard",
   "version": "1.0.0",
-  "description": "Flexible APEX Dashboard is a simple plugin that enable end-users to customize their dashboard layout. The intention was to provide users simmilar region manipulation possiblities that application builder provides to APEX developers.",
+  "description": "Pretius Flexible APEX Dashboard is a simple plugin that enable end-users to customize their dashboard layout. The intention was to provide users simmilar region manipulation possiblities that application builder provides to APEX developers.",
   "keywords": [
     "oracle",
     "apex",
@@ -41,7 +41,7 @@
         "19.1.0"
       ],
       "plugin": {
-        "internalName": "AKIERZKOWSKI_FLEXIBLE_APEX_DASHBOARD",
+        "internalName": "PRETIUS_FLEXIBLE_APEX_DASHBOARD",
         "type": "dynamic action",
         "demo": "https://apex.oracle.com/pls/apex/f?p=116175:1:",
         "previewImage": "https://raw.githubusercontent.com/akierzkowski/flexibleApexDashboard/master/FlexibleAPEXDashboard_preview.png"
