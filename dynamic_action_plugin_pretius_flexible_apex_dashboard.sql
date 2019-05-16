@@ -21,12 +21,12 @@ wwv_flow_api.import_begin (
 );
 end;
 /
-prompt --application/shared_components/plugins/dynamic_action/pretius_flexible_apex_dashboard
+prompt --application/shared_components/plugins/dynamic_action/akierzkowski_flexible_apex_dashboard
 begin
 wwv_flow_api.create_plugin(
- p_id=>wwv_flow_api.id(4960567569001045)
+ p_id=>wwv_flow_api.id(4251909300070189)
 ,p_plugin_type=>'DYNAMIC ACTION'
-,p_name=>'PRETIUS_FLEXIBLE_APEX_DASHBOARD'
+,p_name=>'AKIERZKOWSKI_FLEXIBLE_APEX_DASHBOARD'
 ,p_display_name=>'Pretius Flexible APEX Dashboard '
 ,p_category=>'INIT'
 ,p_supported_ui_types=>'DESKTOP'
@@ -79,7 +79,7 @@ wwv_flow_api.create_plugin(
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'1.0'
-,p_files_version=>14
+,p_files_version=>12
 );
 end;
 /
@@ -143,8 +143,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(4961060146001100)
-,p_plugin_id=>wwv_flow_api.id(4960567569001045)
+ p_id=>wwv_flow_api.id(4661078061039914)
+,p_plugin_id=>wwv_flow_api.id(4251909300070189)
 ,p_file_name=>'flexibleApexDashboard.css'
 ,p_mime_type=>'text/css'
 ,p_file_charset=>'utf-8'
@@ -423,8 +423,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(4961421664001109)
-,p_plugin_id=>wwv_flow_api.id(4960567569001045)
+ p_id=>wwv_flow_api.id(4912422994487484)
+,p_plugin_id=>wwv_flow_api.id(4251909300070189)
 ,p_file_name=>'flexibleApexDashboard.js'
 ,p_mime_type=>'application/javascript'
 ,p_file_charset=>'utf-8'
